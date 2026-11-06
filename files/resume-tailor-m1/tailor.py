@@ -10,7 +10,7 @@ import json
 
 from llm import chat, parse_json
 
-DEFAULT_MODEL = os.getenv("TAILOR_MODEL", "google/cohere/north-mini-code:free")
+DEFAULT_MODEL = os.getenv("TAILOR_MODEL", "cohere/north-mini-code:free")
 
 SYSTEM_PROMPT = """You tailor a software engineer's resume to one job posting.
 
