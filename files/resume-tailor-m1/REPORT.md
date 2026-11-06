@@ -24,9 +24,9 @@ An example **passes** if it is correctly tailored or rejected, faithful, and rat
 
 **AI judge.** One fixed judge model (_[JUDGE_MODEL]_) scores every model under comparison, so differences come from the model being tested. Judge prompt (from `judge.py`):
 
-> _[Paste JUDGE_PROMPT from judge.py here]_
 
-**Judge vs. my own scores.** I scored _[n ≥ 5]_ outputs by hand (`eval/human_scores.csv`) and compared them with the judge using `judge_check.py`: faithfulness agreement _[x]_%, usability within ±1 _[y]_%, mean absolute difference _[z]_. _[One sentence on where you and the judge disagreed.]_
+
+**Judge vs. my own scores.** I scored _[n ≥ 5]_ outputs by hand (`eval/human_scores.csv`) and compared them with the judge using `judge_check.py`: faithfulness agreement _[x]_%, usability within ±1 _[y]_%, mean absolute difference _[z]_. 
 
 **Eval set.** 50 examples in `eval/eval_set.jsonl`.
 - **30 typical:** T01-T15 are based on real postings I could apply to (sources in `eval/job_sources.md`), including Nordstrom, Blue Origin, TSMC Washington, Solace Health, WGU, Smartsheet, State Street, two Washington State agency roles near Lacey (DSHS, Ecology), and senior roles that test seniority claims (Alarm.com/EnergyHub, Kunai, CSCI Consulting, Coforge, Implicit). T16-T30 are postings I wrote, covering partial and weak fits (.NET, Node.js, Golang, Unity, Kotlin, GCP and others).
