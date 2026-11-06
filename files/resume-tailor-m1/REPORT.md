@@ -34,9 +34,8 @@ An example **passes** if it is correctly tailored or rejected, faithful, and rat
 
 Each example lists the facts that should be used, the skills that must be flagged as missing, fabrication traps, the job's key terms, and the expected behavior (tailor or reject).
 
-**Runs.** Each model runs the full set 3 times at temperature 0; I report the mean and range.
-
-**Target for the final.** _[e.g. faithfulness ≥ 98%, pass rate ≥ 80%, hard-case pass rate ≥ 70%, missing-skill recall ≥ 85%, positive keyword gain.]_
+**Runs.** Each model runs the full set 3 times at temperature 0
+**Target for the final.** 
 
 ## Model selection
 
@@ -50,25 +49,15 @@ Date run: _[YYYY-MM-DD]_. Same prompt, temperature 0, eval set and judge for eve
 
 _`:free` variants cost $0; the paid-variant price is shown in brackets as the cost at scale. Judge cost per 1k requests: $[x]._
 
-**Chosen model:** _[model]_
+**Chosen model:** 
 
-_[One paragraph: why this model, which trade-off you accepted (faithfulness vs. usability vs. latency vs. cost), and how it follows from the table. Faithfulness should weigh most.]_
 
 ## Iteration log
 
 | Date | What changed | Pass rate % (mean) | What I learned |
-|---|---|---|---|
-| _[YYYY-MM-DD]_ | Baseline: _[model]_, prompt v1, full-context prompting (no RAG), 50-example eval set | | |
+
 
 ### Three examples the chosen model got wrong
 
-_(Use the "Failed examples" list from `eval.py` and the full outputs in `results/..._run1.jsonl`.)_
 
-1. **_[Example ID]_** - _[what it got wrong: trap hit / invented number / judge issue / wrong reject]_.
-   _Why I think it failed:_ ...
-2. **_[Example ID]_** - ...
-   _Why I think it failed:_ ...
-3. **_[Example ID]_** - ...
-   _Why I think it failed:_ ...
-
-**What I will change first:** _[e.g. add a worked example to the prompt, tighten the rule on skills-list items, add a verify step]_
+**What I will change first:** _
