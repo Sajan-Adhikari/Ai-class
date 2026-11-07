@@ -1,0 +1,66 @@
+# Technical terms the code check looks for in tailored output.
+# If one appears in the summary/bullets but NOT in your resume, it is flagged as unsupported.
+# Add terms as you find new fabrications.
+Kubernetes
+Helm
+Terraform
+Ansible
+OpenShift
+Golang
+gRPC
+Kotlin
+Gradle
+Scala
+Rust
+Ruby
+Rails
+PHP
+Swift
+SwiftUI
+Objective-C
+C++
+TypeScript
+Angular
+Vue
+Next.js
+Node.js
+Express
+Django
+FastAPI
+Flask
+Spark
+Airflow
+Hadoop
+Snowflake
+BigQuery
+Databricks
+Tableau
+Power BI
+Excel
+Oracle
+Cassandra
+DynamoDB
+Elasticsearch
+GraphQL
+Azure
+Lambda
+Selenium
+Cypress
+Jest
+PyTorch
+TensorFlow
+LangChain
+LlamaIndex
+RAG
+OpenTelemetry
+Datadog
+Splunk
+Kibana
+HIPAA
+PCI
+Stripe
+RTOS
+firmware
+Linux kernel
+microcontroller
+Xcode

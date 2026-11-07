@@ -1,0 +1,13 @@
+run_tag,model,judge,runs,Pass rate (%),Typical (%),Hard (%),Faithfulness (%),Code checks only (%),Correct tailor/reject (%),Fact coverage (%),Missing-skill recall (%),Keyword gain vs baseline (pts),Usability (1-5),"Usable, score >= 3 (%)",Error rate (%),Avg latency (s),Cost / 1k requests ($),Paid-variant cost / 1k ($)
+google_gemma-4-31b-it_free_20261106-124505,google/gemma-4-31b-it:free,off,1,0.0,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,n/a,0.000,0.000
+google_gemma-4-31b-it_free_20261106-125102,google/gemma-4-31b-it:free,off,1,0.0,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,n/a,0.000,0.000
+google_gemma-4-31b-it_free_20261106-125429,google/gemma-4-31b-it:free,off,1,0.0,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,n/a,0.000,0.000
+nvidia_nemotron-3.5-lightning_free_free_20261106-125956,nvidia/nemotron-3.5-lightning:free:free,off,1,0.0,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,18.90,n/a,0.000
+nvidia_nemotron-3.5-lightning_free_free_20261106-130218,nvidia/nemotron-3.5-lightning:free:free,off,1,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,30.0,n/a,n/a,0.0,214.14,n/a,0.000
+google_gemma-4-31b-it_free_20261106-133938,google/gemma-4-31b-it:free,off,1,0.0,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,n/a,0.000,0.000
+nvidia_nemotron-3.5-lightning_free_20261106-134335,nvidia/nemotron-3.5-lightning:free,off,1,100.0,100.0,100.0,100.0,100.0,100.0,75.0,100.0,50.0,n/a,n/a,0.0,179.59,0.000,3.742
+cohere_north-mini-code_free_20261106-140912,cohere/north-mini-code:free,off,1,100.0,100.0,100.0,100.0,100.0,100.0,75.0,100.0,20.0,n/a,n/a,0.0,69.30,0.000,n/a
+cohere_north-mini-code_free_20261106-141609,cohere/north-mini-code:free,nvidia/nemotron-3-ultra-550b-a55b:free,1,0.0,0.0,0.0,0.0,100.0,100.0,100.0,0.0,50.0,n/a,n/a,100.0,70.10,0.000,n/a,0.000
+cohere_north-mini-code_free_20261106-142121,cohere/north-mini-code:free,nvidia/nemotron-3-ultra-550b-a55b:free,1,0.0,0.0,0.0,0.0,100.0,100.0,100.0,100.0,50.0,2.00,0.0,0.0,54.93,0.000,n/a,0.000
+cohere_north-mini-code_free_20261106-233505,cohere/north-mini-code:free,nvidia/nemotron-3-ultra-550b-a55b:free,1,0.0,0.0,n/a,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,20.16,0.000,n/a,0.000
+google_gemma-4-31b-it_free_20261106-233859,google/gemma-4-31b-it:free,nvidia/nemotron-3-ultra-550b-a55b:free,1,0.0,0.0,n/a,n/a,n/a,0.0,n/a,n/a,n/a,n/a,n/a,100.0,n/a,0.000,0.000,0.000

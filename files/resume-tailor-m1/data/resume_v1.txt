@@ -1,0 +1,52 @@
+# Resume v1 - Sajan Adhikari 
+# One fact per line: ID: fact. Bullets must trace back to these IDs.
+
+# Summary
+S1: Java Developer / Software Engineer with 2 years of hands-on experience
+S2: Led projects through all phases of the software development life cycle, with highly testable, decoupled code
+S3: Uses test-driven development, which decreased development time and increased productivity
+S4: Created RESTful web services, microservices, enterprise web applications and interactive user interfaces
+
+# Skills (listed only, not tied to a specific job or project)
+K1: Languages: Java, C#, JavaScript, Python
+K2: Web: HTML, CSS, AJAX, jQuery, React
+K3: Web services: REST, SOAP
+K4: Web and application servers: Tomcat, Apache HTTP Server
+K5: Frameworks: Spring (MVC, Boot), React, JUnit, Mockito
+K6: Databases: MySQL, SQL Server, MongoDB
+K7: Design patterns: Singleton, Factory Method, Strategy, Observer, Builder, Adapter
+K8: SDLC: Agile, RUP, Waterfall, Iterative
+K9: Tools: IntelliJ IDEA, Visual Studio Code, Eclipse, Cursor, Claude Code, Unity, Trello, Jira, Jenkins, Sourcetree, PlantUML, Slack, Teams
+K10: Platforms: AWS, GCP
+K11: Also named in summary: Hibernate, .NET Core, Kafka
+K12: Areas: software development life cycle, system design, enterprise architecture, database design, design patterns, OOP, data structures, algorithms, requirement analysis, AI architecture and development
+
+# Software Engineer, Ninja Infosys PVT. LTD., Kathmandu, Nepal (2022-2024), outsourcing company
+N1: Developed enterprise web applications in healthcare and finance
+N2: Contributed to the design of Java Spring-based web applications
+N3: Created new features and integrated them with existing systems
+N4: Wrote clean, efficient code in Java, Spring Boot, React, Hibernate and SQL
+N5: Implemented the full UI/UX layer design, including prototyping and usability testing
+N6: Troubleshot and debugged existing software to upgrade it
+N7: Designed and configured the CI/CD pipeline for the project
+N8: Completed projects on time and within budget despite challenging requirements
+N9: Led automation for building and deploying software systems with Docker, Jenkins, Git and GitHub
+N10: Technologies used at Ninja Infosys: Java, Spring Boot, AWS, Python, Kafka, Docker, Teradata, SQL, Concord, Looper, Prometheus, Grafana, Postman, REST API, Git, GitHub, IntelliJ IDEA
+
+# Graduate Teaching Assistant, Saint Martin's University, Lacey, WA (2025-present)
+T1: Helped 40+ students debug Python programming assignments and understand core concepts
+T2: Supported weekly Operating Systems and Computer Architecture labs, helping students troubleshoot assembly language code
+T3: Mentored students in structured debugging, testing and root-cause analysis for programming and design projects
+T4: Supported students with data structures, algorithms, OOP and software engineering concepts, one-on-one and in groups
+
+# Academic projects
+P1: Distributed Payment Gateway (academic project): built and deployed a payment gateway designed for scale and reliability using Java, Spring Boot, PostgreSQL, Swagger, Kafka/RabbitMQ, Redis, Docker, REST APIs, Maven, JSON, Git and GitHub
+P2: SMU Scheduler (academic project): designed a scheduling application that automatically schedules classes and supports course registration, using Java, Spring, Thymeleaf, MySQL, Maven, Ajax, JSON, JavaScript, HTML, CSS, Git, GitHub and Docker
+
+# Education
+D1: M.S. Computer Science, Saint Martin's University, graduating December 2026, GPA 3.9; courses include Algorithms, Enterprise Architecture, Software Engineering, Web Programming, Fundamental Programming Practices, Cloud Computing, Networking and Security, AI Architecture and Development
+D2: Bachelor's in Information Science and Engineering, Visvesvaraya Technological University, Bangalore, India, GPA 3.83
+
+# Activities and leadership
+A1: Collaborated with faculty and students to organize the 2025 CCSC Northwestern Regional Conference at Saint Martin's University
+A2: Led the planning and execution of an inter-departmental hackathon, coordinating multiple teams

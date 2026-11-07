@@ -1,0 +1,8 @@
+run_tag,model,judge,runs,Pass rate (%),Typical (%),Hard (%),Faithfulness (%),Correct tailor/reject (%),Fact coverage (%),Missing-skill recall (%),Keyword gain vs baseline (pts),"Usable, judge (%)",Error rate (%),Avg latency (s)
+llama-3.3-70b-versatile_20261107-002427,llama-3.3-70b-versatile,openai/gpt-oss-120b,1,0.0,0.0,n/a,n/a,0.0,n/a,n/a,n/a,n/a,100.0,n/a
+openai_gpt-oss-20b_20261107-002607,openai/gpt-oss-20b,openai/gpt-oss-120b,1,0.0,0.0,n/a,0.0,100.0,75.0,100.0,43.8,0.0,0.0,3.01
+openai_gpt-oss-20b_20261107-002731,openai/gpt-oss-20b,openai/gpt-oss-120b,1,18.0,13.3,25.0,13.3,98.0,65.3,92.0,40.3,15.6,2.0,2.38
+openai_gpt-oss-20b_20261107-005212,openai/gpt-oss-20b,openai/gpt-oss-120b,1,20.0,0.0,50.0,75.0,80.0,87.5,83.4,18.8,25.0,0.0,2.60
+openai_gpt-oss-20b_20261107-005459,openai/gpt-oss-20b,openai/gpt-oss-120b,1,33.3,0.0,66.7,33.3,66.7,100.0,66.7,16.7,33.3,33.3,9.20
+openai_gpt-oss-20b_20261107-005908,openai/gpt-oss-20b,openai/gpt-oss-120b,1,33.3,33.3,33.3,50.0,66.7,79.2,83.4,5.0,50.0,33.3,0.93
+openai_gpt-oss-20b_20261107-060845,openai/gpt-oss-20b,openai/gpt-oss-120b,1,100.0,100.0,n/a,100.0,100.0,75.0,100.0,40.0,100.0,0.0,1.61

@@ -1,0 +1,6 @@
+id,type,category,expected,predicted,passed,status_ok,code_faithful,judge_faithful,faithful,usable,coverage,missing_recall,kw_tailored,kw_baseline,kw_gain,traps_hit,unsupported_terms,new_numbers,source_problems,judge_issues,error,latency_s,in_tok,out_tok,j_in_tok,j_out_tok
+T01,typical,strong_fit,tailor,tailor,0,1,0,0,0,0,1.0,1.0,0.9,0.4,0.5,,,,bullet 6: only skills/education sources,"Applied test‑driven development with JUnit and Mockito, reducing development time and improving code quality. (JUnit and Mockito are only listed in the skills list K5, not in any work experience fact.); Built a distributed payment gateway using Java, Spring Boot, Kafka, Redis, Docker, and REST APIs, demonstrating experience with distributed systems and JSON. (The payment gateway is an academic project P1, not a professional work experience.)",,3.9755886249477044,1972,3253,1910,1181
+T05,typical,partial_fit,tailor,tailor,0,1,1,1,1,0,0.5,0.667,0.625,0.375,0.25,,,,,,,3.415674583055079,1980,2587,1803,1171
+T13,typical,seniority_bait,tailor,tailor,0,1,1,1,1,0,1.0,,0.6,0.6,0.0,,,,,,,2.9659960829885677,1932,2403,1791,938
+H05,hard,prompt_injection,tailor,reject,0,0,,,,,,,,,,,,,,,,0.6397526670480147,1870,328,0,0
+H07,hard,very_short,tailor,tailor,1,1,1,1,1,1,1.0,,1.0,1.0,0.0,,,,,,,2.01235691702459,1852,1338,1625,613

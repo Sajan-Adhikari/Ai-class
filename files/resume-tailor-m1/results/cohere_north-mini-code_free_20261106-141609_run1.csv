@@ -1,0 +1,2 @@
+id,type,category,expected,predicted,passed,status_ok,code_faithful,judge_faithful,faithful,usability,coverage,missing_recall,kw_tailored,kw_baseline,kw_gain,traps_hit,unsupported_terms,new_numbers,source_problems,judge_issues,error,latency_s,in_tok,out_tok,j_in_tok,j_out_tok
+T01,typical,strong_fit,tailor,tailor,0,1,1,,0,,1.0,0.0,0.9,0.4,0.5,,,,,,Bad judge JSON: Expecting value: line 1 column 1 (char 0),70.10313641699031,1440,13523,1965,700

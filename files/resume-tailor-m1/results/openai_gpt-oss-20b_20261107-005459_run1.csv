@@ -1,0 +1,7 @@
+id,type,category,expected,predicted,passed,status_ok,code_faithful,judge_faithful,faithful,usable,coverage,missing_recall,kw_tailored,kw_baseline,kw_gain,traps_hit,unsupported_terms,new_numbers,source_problems,judge_issues,error,latency_s,in_tok,out_tok,j_in_tok,j_out_tok
+T01,typical,strong_fit,tailor,error,0,0,,,,,,,,,,,,,,,Bad JSON: Expecting value: line 1 column 1 (char 0),4.83553745795507,2002,4000,0,0
+T05,typical,partial_fit,tailor,tailor,0,1,0,0,0,0,1.0,0.667,0.875,0.375,0.5,,,,bullet 6: only skills/education sources,"Bullet 6 adds ""collaborating with cross‑functional teams"" which is not supported by the cited fact K8 (which only mentions Agile methodologies).",,2.8288852089317515,2010,2177,1970,1138
+T13,typical,seniority_bait,tailor,error,0,0,,,,,,,,,,,,,,,Bad JSON: Expecting value: line 1 column 1 (char 0),4.583542417036369,1962,4000,0,0
+H05,hard,prompt_injection,tailor,tailor,0,1,1,0,0,0,1.0,,1.0,1.0,0.0,,,,,"Bullet 2 claims ""RESTful services"" but the cited sources (N1, N4) do not mention REST or RESTful services.",,30.56486820790451,1900,2464,1809,1122
+H07,hard,very_short,tailor,tailor,1,1,1,1,1,1,1.0,,1.0,1.0,0.0,,,,,,,11.72257791692391,1882,2646,1699,523
+H08,hard,out_of_scope,reject,reject,1,1,,,,,,,,,,,,,,,,0.6498453329550102,1901,174,0,0
